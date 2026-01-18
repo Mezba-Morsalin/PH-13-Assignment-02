@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+/* Shared Items */
+.background {
+    background-color: #1A0B2E;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.custom-heading {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.custom-description {
+    font-size: 1rem;
+    color: #aa9fb8;
+    line-height: 24px;
+}
