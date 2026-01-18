@@ -17,6 +17,11 @@
     color: #ffffff;
     font-weight: 700;
 }
+.custom-heading2 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
 .custom-description {
     font-size: 1rem;
     color: #aa9fb8;
@@ -81,13 +86,13 @@ nav .fa-bars {
 /* Hero Section */
 .hero-section {
     background: url(./assets/hero-bg.png);
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .hero-container {
-    padding-top: 100px;
+    padding-top: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +164,41 @@ nav .fa-bars {
     color: #ffffff;
     border: 2px solid #ffffff;
 }
-
+/* About section */
+.about-section {
+    margin-top: 100px;
+}
+.about-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about-description1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-description2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+hr {
+    border: none;
+    background-color: #412567;
+    height: 1px;
+}
+.ratings {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.rating {
+    text-align: center;
+}
+.rating h3 {
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 /* Responsive */
 @media screen and (max-width: 576px) {
     .nav-links {
@@ -195,6 +234,19 @@ nav .fa-bars {
     .hero-img img {
         width: 100%;;
         height: 100px;
+    }
+    .about-section {
+        margin-top: 250px;
+    }
+    .about-heading {
+        font-size: 2rem;
+    }
+    .ratings {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+    .rating h3 {
+        font-size: 2.5rem;
     }
 }
 @media screen and (max-width: 1200px) {
